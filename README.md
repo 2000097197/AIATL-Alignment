@@ -23,6 +23,6 @@ We tested this method against various existing and hypothetical LLM attacks. Ini
 A potential implication of this approach is its resource intensity, as it requires two LLMs per user, effectively doubling the computational workload. Along with that, implementing a dual-LLM system adds complexity to the architecture, requiring more sophisticated management and maintenance. Running two models per user could significantly increase operational costs, impacting budget allocations for AI projects. There is also the chance that the verification LLM might incorrectly flag safe outputs as unsafe or vice versa, leading to false positives or negatives.
 
 # References: 
-https://www.tigera.io/learn/guides/llm-security/prompt-injection/
-https://aclanthology.org/2024.acl-long.830.pdf
-https://ir.elastic.co/news/news-details/2024/Elastic-Security-Labs-Releases-Guidance-to-Avoid-LLM-Risks-and-Abuses/default.aspx
+https://www.tigera.io/learn/guides/llm-security/prompt-injection/<br/>
+https://aclanthology.org/2024.acl-long.830.pdf<br/>
+https://ir.elastic.co/news/news-details/2024/Elastic-Security-Labs-Releases-Guidance-to-Avoid-LLM-Risks-and-Abuses/default.aspx<br/>
